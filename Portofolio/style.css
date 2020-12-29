@@ -640,6 +640,75 @@ text set in the data-text attribute. */
 /*---------------------------------------Glitch efx trial-----------------------------------------------*/
 
 
+.lds-grid {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-grid div {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-radius: 30%;
+  background: #fff;
+  animation: lds-grid 1.2s linear infinite;
+}
+.lds-grid div:nth-child(1) {
+  top: 4px;
+  left: 4px;
+  animation-delay: 0s;
+}
+.lds-grid div:nth-child(2) {
+  top: 4px;
+  left: 16px;
+  animation-delay: -0.4s;
+}
+.lds-grid div:nth-child(3) {
+  top: 4px;
+  left: 28px;
+  animation-delay: -0.8s;
+}
+.lds-grid div:nth-child(4) {
+  top: 16px;
+  left: 4px;
+  animation-delay: -0.4s;
+}
+.lds-grid div:nth-child(5) {
+  top: 16px;
+  left: 16px;
+  animation-delay: -0.8s;
+}
+.lds-grid div:nth-child(6) {
+  top: 16px;
+  left: 28px;
+  animation-delay: -1.2s;
+}
+.lds-grid div:nth-child(7) {
+  top: 28px;
+  left: 4px;
+  animation-delay: -0.8s;
+}
+.lds-grid div:nth-child(8) {
+  top: 28px;
+  left: 16px;
+  animation-delay: -1.2s;
+}
+.lds-grid div:nth-child(9) {
+  top: 28px;
+  left: 28px;
+  animation-delay: -1.6s;
+}
+@keyframes lds-grid {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+
 
 /*h1 { 
     font-family: Inconsolata;
