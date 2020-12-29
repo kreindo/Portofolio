@@ -1,17 +1,40 @@
 * {
     font-family: 'Inconsolata', monospace;
-    color: white;
+
+    /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+    color: rgb(167, 28, 28);
 }
+
+
+
+
+
+
 body {
     background-color: rgb(0, 0, 0);
     margin-top: 60px;
     margin-bottom: 80px;
     margin-right: 150px;
-    margin-left: 80px;
+    margin-left: 150px;
     text-align: center;
-/*    font-family: MyFont;*/
-
 }
+
+.nox {
+    border: 1rem solid red;
+    background-color: rgb(19, 42, 49);    
+    text-align: center;
+}
+
+.syndicate {
+    text-align: center;
+}
+
+
+#messenger {
+    color: aliceblue;
+}
+
+
 /*
 @font-face {
 /*    font-family: MyFont; */
@@ -19,20 +42,23 @@ body {
     font-stretch: normal;
     font-style: normal;
     font-weight: bold;
+}
 */
 
-} 
+ 
 h1 {
     /*position:fixed;*/
     margin-bottom: 100px;
     text-align: center;
-    font-size: 100px;
+    font-size: 88px;
+    white-space: nowrap;
+    overflow: hidden;
 /*    font-family: MyFont; */
     
 }
 
 h2 {
-    color: white;
+    color: rgb(29, 49, 160);
 
 }
 
@@ -42,9 +68,13 @@ h3 {
 
 
 p {
+    text-align: justify;
     color: white;
 }
 
+.pog {
+    color: aquamarine;
+}
 
 
 /*h1 { 
