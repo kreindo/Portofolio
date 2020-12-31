@@ -92,6 +92,13 @@ body {
 
 }
 
+.nt {
+  text-decoration: none;
+  color: rgb(223, 223, 223);
+
+
+}
+
 .polymorph p {
   /*position:fixed;*/
   padding: 5px 0 0 0 ;
