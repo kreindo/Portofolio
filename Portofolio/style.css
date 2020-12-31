@@ -29,9 +29,26 @@ body {
     
 }
 
+
+
 .alien {
-  margin: 25em 0 0 0;
+  margin: 25% auto;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 750;
+  /* margin: 25em 0 0 0; */
+  color: rgb(223, 223, 223);
+  /* display: flex; */
+  /* justify-content: center; */
+  /* position: absolute; */
+  /* align-items: center; */
+  width: fit-content;
+  height: min-content;
+  /* white-space: nowrap; */
+  /* overflow: auto; */
+  top: 50%;
+  left: 50%;
 }
+
 
 .polymorph h1 {
   /*position:fixed;*/
@@ -105,14 +122,13 @@ body {
   border: 1px solid darkred;
 }
 
-
+/* 
 .helloGreet {
-/*  color: rgb(255, 255, 255); */
     text-align: center;
-    color: aqua;
+    color: rgb(17, 56, 56);
     font-size: large;
 }
-
+ */
 p {
     text-align: justify;
     /* color: white; */
@@ -692,16 +708,35 @@ text set in the data-text attribute. */
     }
   }
 /*---------------------------------------Glitch efx trial-----------------------------------------------*/
-
-
+/*Tablet*/
 @media only screen and (min-width: 768px) {
   .wrapper  {
     width: 600px;
     margin: 0 auto;
     font-family: 'Inconsolata', monospace;
     font-weight: 750;
-    color: rgb(223, 223, 223);
+    color: rgb(158, 140, 140);
   }
+
+  .alien {
+    margin: 50% auto;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 750;
+    /* margin: 25em 0 0 0; */
+    color: rgb(223, 223, 223);
+    /* display: flex; */
+    /* justify-content: center; */
+    /* position: absolute; */
+    /* align-items: center; */
+    width: fit-content;
+    height: min-content;
+    /* white-space: nowrap; */
+    /* overflow: auto; */
+    top: 50%;
+    left: 50%;
+    
+  }
+  
   .polymorph h1 {
     /*position:fixed;*/
     padding: 30px 30px 100px;
@@ -736,6 +771,100 @@ text set in the data-text attribute. */
   }
 
 }
+/* Galaxy S5 */
+@media only screen and (min-width: 360px) {
+  .alien {
+    margin: 80% auto;
+  }
+  .hugeBoii {
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 640px) {
+  .alien {
+    margin: 25% auto;
+  }
+  .hugeBoii {
+    margin: 0 auto;
+  }
+}
+
+
+/*IPAD PRO*/
+@media only screen and (min-width: 1024px) {
+  
+
+  .alien {
+    margin: 60% auto;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 750;
+    /* margin: 25em 0 0 0; */
+    color: rgb(223, 223, 223);
+    /* display: flex; */
+    /* justify-content: center; */
+    /* position: absolute; */
+    /* align-items: center; */
+    width: fit-content;
+    height: min-content;
+    /* white-space: nowrap; */
+    /* overflow: auto; */
+    top: 50%;
+    left: 50%;
+    
+  }
+  
+  
+
+  .polymorph p {
+    /*position:fixed;*/
+    padding: 5px 0 30px 0 ;
+  
+  }
+  
+  hr {
+    border: 3px groove darkred;
+    border-width: 4px 1px;
+  }
+
+}
+
+@media only screen and (min-width: 1366px) {
+  
+  .alien {
+    margin: 35% auto;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 750;
+    /* margin: 25em 0 0 0; */
+    color: rgb(223, 223, 223);
+    /* display: flex; */
+    /* justify-content: center; */
+    /* position: absolute; */
+    /* align-items: center; */
+    width: fit-content;
+    height: min-content;
+    /* white-space: nowrap; */
+    /* overflow: auto; */
+    top: 50%;
+    left: 50%;
+    
+  }
+  
+  
+
+  .polymorph p {
+    /*position:fixed;*/
+    padding: 5px 0 30px 0 ;
+  
+  }
+  
+  hr {
+    border: 3px groove darkred;
+    border-width: 4px 1px;
+  }
+
+}
+  
+
 
 @media only screen and (min-width: 1000px) {
 
@@ -751,8 +880,9 @@ text set in the data-text attribute. */
   }
   .polymorph p {
     
-    margin: 0 30px 0 30px;
+    margin: 0 60px 0 30px;
     padding: 0 0 30px 0;
   
   }
+
 }
