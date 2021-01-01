@@ -54,7 +54,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4 auto);
     background-color: rgb(208, 255, 0);
-    height: ;
+/*     height: ; */
     padding: 10em;
     margin: 4rem;
     box-shadow: 3px 3px 10px #555;
