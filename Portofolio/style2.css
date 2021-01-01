@@ -1,0 +1,76 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: inconsolata, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: aliceblue;
+    /* background-image: url("https://picsum.photos/1080/720?blur&gravity=center"); */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+/* 
+.header {
+    background-color: rgba(85, 85, 85, 0.158) ;
+    margin-bottom: 3rem;
+
+}
+
+ */
+.krnd {
+    text-align: center;
+    margin: 0 auto;
+    padding: .7em;
+    font-size: 2rem;
+    color: rgb(255, 149, 149);
+    user-select: none;
+
+}
+
+/* .side {
+    background-color: bisque;
+    position: absolute;
+    border-left: 5px solid rgba(255, 228, 196, 0.575);
+    right: 0;
+    bottom: 0;
+    width: 83%;
+    height: 100%;
+    margin: 4rem 0 4rem 0;
+    box-shadow: -3px 0 10px;
+    
+}
+ */
+
+ /* .flex {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+ } */
+
+ .side {
+    display: grid;
+    grid-template-columns: repeat(4 auto);
+    background-color: rgb(208, 255, 0);
+    height: ;
+    padding: 10em;
+    margin: 4rem;
+    box-shadow: 3px 3px 10px #555;
+    
+}
+
+
+.bg-img {
+    position: fixed;
+
+}
+/* 
+.images {
+    border: 10px solid #555;
+}
+
+.image-data {
+    border: 20px dotted pink;
+} */
